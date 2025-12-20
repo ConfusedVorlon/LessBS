@@ -3,37 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LessBS</title>
+    <title>LessBS - Vote No at the AGM</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            line-height: 1.6;
             background: #fafafa;
             color: #333;
         }
         main {
-            text-align: center;
-            padding: 2rem;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
         }
         h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
         }
-        p {
+        .subtitle {
             font-size: 1.25rem;
             color: #666;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: #111;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .stats {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .stats table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .stats th, .stats td {
+            text-align: left;
+            padding: 0.5rem 0.75rem;
+        }
+        .stats th {
+            font-weight: 600;
+            border-bottom: 2px solid #ddd;
+        }
+        .stats tr:not(:last-child) td {
+            border-bottom: 1px solid #eee;
+        }
+        .stats .highlight {
+            background: #fff3cd;
+        }
+        .cta {
+            background: #d32f2f;
+            color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .cta h2 {
+            color: #fff;
+            margin-top: 0;
+        }
+        .cta p {
+            margin-bottom: 0;
+            font-size: 1.1rem;
+        }
+        ul {
+            margin: 1rem 0 1rem 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>LessBS</h1>
-        <p>Coming soon.</p>
+        <p class="subtitle">British Skydiving needs to cut costs, not raise fees.</p>
+
+        <div class="cta">
+            <p><strong>Vote no to the membership fee increase.</strong></p>
+        </div>
+
+        <h2>The Problem</h2>
+        <p>Every year, British Skydiving increases membership fees. Every year, CEO Rob offers cursory explanations at best. The organisation has become bloated and unresponsive to its members and drop zones.</p>
+
+        <p>Drop zones bear the brunt of this, especially in tandem operations. The costs get passed on, making skydiving more expensive for everyone.</p>
+
+        <h2>Staff Are Expensive</h2>
+        <div class="stats">
+            <table>
+                <tr>
+                    <th>Organisation</th>
+                    <th>Members</th>
+                    <th>Staff</th>
+                    <th>Ratio</th>
+                </tr>
+                <tr>
+                    <td>Canadian Parachute Assoc.</td>
+                    <td>~3,000</td>
+                    <td>2</td>
+                    <td>1:1,500</td>
+                </tr>
+                <tr>
+                    <td>USPA (USA)</td>
+                    <td>~40,000</td>
+                    <td>~20</td>
+                    <td>1:2,000</td>
+                </tr>
+                <tr class="highlight">
+                    <td><strong>British Skydiving</strong></td>
+                    <td>~4,000</td>
+                    <td>13 (hiring 2 more)</td>
+                    <td>1:267</td>
+                </tr>
+            </table>
+        </div>
+        <p>British Skydiving employs one staff member for every 267 members. The USPA manages with one per 2,000. The Canadians run their entire operation with just two people.</p>
+
+        <p>And yet British Skydiving is recruiting more staff, including a "Safety and Insight Analyst" to join the existing four safety staff. Meanwhile, money flows to vanity projects like the Ambassador Programme.</p>
+
+        <p>Many not-for-profit organisations set executive pay based on organisational size and turnover. This creates a perverse incentive: it's hard to motivate a CEO to shrink an organisation when their salary depends on it staying big.</p>
+
+        <h2>What's At Stake</h2>
+        <p>Major drop zones are already exploring forming their own organisation. If that happens, British Skydiving loses a massive chunk of its revenue overnight. At that point, fees will either skyrocket or drastic cuts will be forced upon them.</p>
+
+        <p>It would be far better if British Skydiving pre-emptively met the needs of drop zones and members, rather than waiting for a crisis.</p>
+
+        <div class="cta">
+            <h2>Vote No at the AGM</h2>
+            <p>Send a clear message: British Skydiving cannot take its members or drop zones for granted. Vote against the membership fee increase.</p>
+        </div>
+
+        <h2>What Do We Want?</h2>
+        <p>We want British Skydiving to take a hard look at its cost structure and dramatically reduce the activities it performs and the costs it incurs.</p>
+        <ul>
+            <li>Dramatically cut staff costs</li>
+            <li>Pass savings on to drop zones through reduced tandem fees</li>
+            <li>Reduce membership fees for individuals</li>
+        </ul>
+        <p>This isn't about damaging British Skydiving. It's about making it sustainable and fit for purpose.</p>
+
+        <footer>
+            <p>Rob Jonson</p>
+        </footer>
     </main>
 </body>
 </html>
